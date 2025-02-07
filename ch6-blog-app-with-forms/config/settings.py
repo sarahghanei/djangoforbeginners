@@ -108,3 +108,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [str(BASE_DIR.joinpath('static'))]
+SESSION_COOKIE_SECURE = True
